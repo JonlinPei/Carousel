@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC3A93ED1A905A0800B38366 /* CreateDropboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A93EC1A905A0800B38366 /* CreateDropboxViewController.swift */; };
+		FC7B9EDD1A8EB30F000A8A90 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B9EDC1A8EB30F000A8A90 /* SignInViewController.swift */; };
+		FC7B9EDF1A8FE7C3000A8A90 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B9EDE1A8FE7C3000A8A90 /* WelcomeViewController.swift */; };
+		FC7B9EE11A903322000A8A90 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B9EE01A903322000A8A90 /* FeedViewController.swift */; };
+		FC7B9EE31A903A36000A8A90 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B9EE21A903A36000A8A90 /* ConversationsViewController.swift */; };
+		FC7B9EE51A90476C000A8A90 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B9EE41A90476C000A8A90 /* SettingsViewController.swift */; };
+		FC7B9EE71A905294000A8A90 /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B9EE61A905294000A8A90 /* GetStartedViewController.swift */; };
 		FCA241281A8ADD7000DCFBBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA241271A8ADD7000DCFBBA /* AppDelegate.swift */; };
 		FCA2412A1A8ADD7000DCFBBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA241291A8ADD7000DCFBBA /* ViewController.swift */; };
 		FCA2412D1A8ADD7000DCFBBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA2412B1A8ADD7000DCFBBA /* Main.storyboard */; };
 		FCA2412F1A8ADD7000DCFBBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA2412E1A8ADD7000DCFBBA /* Images.xcassets */; };
 		FCA241321A8ADD7000DCFBBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA241301A8ADD7000DCFBBA /* LaunchScreen.xib */; };
 		FCA2413E1A8ADD7000DCFBBA /* CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2413D1A8ADD7000DCFBBA /* CarouselTests.swift */; };
+		FCA2414C1A8AE17700DCFBBA /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2414B1A8AE17700DCFBBA /* Common.swift */; };
+		FCA2414E1A8AE35300DCFBBA /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2414D1A8AE35300DCFBBA /* IntroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC3A93EC1A905A0800B38366 /* CreateDropboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateDropboxViewController.swift; sourceTree = "<group>"; };
+		FC7B9EDC1A8EB30F000A8A90 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		FC7B9EDE1A8FE7C3000A8A90 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		FC7B9EE01A903322000A8A90 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		FC7B9EE21A903A36000A8A90 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		FC7B9EE41A90476C000A8A90 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FC7B9EE61A905294000A8A90 /* GetStartedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
 		FCA241221A8ADD7000DCFBBA /* Carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCA241261A8ADD7000DCFBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCA241271A8ADD7000DCFBBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +52,8 @@
 		FCA241371A8ADD7000DCFBBA /* CarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCA2413C1A8ADD7000DCFBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCA2413D1A8ADD7000DCFBBA /* CarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTests.swift; sourceTree = "<group>"; };
+		FCA2414B1A8AE17700DCFBBA /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		FCA2414D1A8AE35300DCFBBA /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +96,18 @@
 			isa = PBXGroup;
 			children = (
 				FCA241271A8ADD7000DCFBBA /* AppDelegate.swift */,
-				FCA241291A8ADD7000DCFBBA /* ViewController.swift */,
 				FCA2412B1A8ADD7000DCFBBA /* Main.storyboard */,
+				FC3A93EC1A905A0800B38366 /* CreateDropboxViewController.swift */,
+				FC7B9EE61A905294000A8A90 /* GetStartedViewController.swift */,
+				FC7B9EE41A90476C000A8A90 /* SettingsViewController.swift */,
+				FC7B9EE21A903A36000A8A90 /* ConversationsViewController.swift */,
+				FC7B9EE01A903322000A8A90 /* FeedViewController.swift */,
+				FC7B9EDE1A8FE7C3000A8A90 /* WelcomeViewController.swift */,
+				FC7B9EDC1A8EB30F000A8A90 /* SignInViewController.swift */,
 				FCA2412E1A8ADD7000DCFBBA /* Images.xcassets */,
+				FCA2414D1A8AE35300DCFBBA /* IntroViewController.swift */,
+				FCA241291A8ADD7000DCFBBA /* ViewController.swift */,
+				FCA2414B1A8AE17700DCFBBA /* Common.swift */,
 				FCA241301A8ADD7000DCFBBA /* LaunchScreen.xib */,
 				FCA241251A8ADD7000DCFBBA /* Supporting Files */,
 			);
@@ -213,7 +240,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCA2412A1A8ADD7000DCFBBA /* ViewController.swift in Sources */,
+				FCA2414C1A8AE17700DCFBBA /* Common.swift in Sources */,
 				FCA241281A8ADD7000DCFBBA /* AppDelegate.swift in Sources */,
+				FC7B9EE31A903A36000A8A90 /* ConversationsViewController.swift in Sources */,
+				FC7B9EDF1A8FE7C3000A8A90 /* WelcomeViewController.swift in Sources */,
+				FC7B9EDD1A8EB30F000A8A90 /* SignInViewController.swift in Sources */,
+				FCA2414E1A8AE35300DCFBBA /* IntroViewController.swift in Sources */,
+				FC3A93ED1A905A0800B38366 /* CreateDropboxViewController.swift in Sources */,
+				FC7B9EE11A903322000A8A90 /* FeedViewController.swift in Sources */,
+				FC7B9EE51A90476C000A8A90 /* SettingsViewController.swift in Sources */,
+				FC7B9EE71A905294000A8A90 /* GetStartedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +372,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Carousel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Carousel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +443,7 @@
 				FCA241431A8ADD7000DCFBBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCA241441A8ADD7000DCFBBA /* Build configuration list for PBXNativeTarget "CarouselTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +452,7 @@
 				FCA241461A8ADD7000DCFBBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
