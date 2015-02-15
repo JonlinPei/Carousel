@@ -1,6 +1,6 @@
 # Carousel
 
-CodePath assignment - Recreate Dropbox visual flow using custom view controllers, buttons, images, scrollviews, manual segues, navigation controllers, and tab bar controllers.
+CodePath assignment - Recreate Carousel.
 
 Time spent: 15 hours spent in total
 
